@@ -27,3 +27,11 @@ The agent:
 - Began the formula in E2 as was expected
 - Referenced one row higher than what was expected (=D1*C1) in cell E2
 - Dragged the formula down creating a cascading error in which the E2 was in error
+
+### Screenshot of Incorrect Agent Output
+
+![Formula Error](./error%201.png)
+
+### Formula Breakdown Visualization
+
+![Formula Breakdown](./error%202.png)
