@@ -2,6 +2,16 @@
 
 ← [Back to Summary](./README.md)
 
+| Feature            | Description                                                             |
+|--------------------|-------------------------------------------------------------------------|
+| Task Type          | Spreadsheet GUI automation                                              |
+| Agent Behavior     | Formula drag + cell reference                                           |
+| Expected Outcome   | Each row: `Final = Cash Flow × Discount Factor`                         |
+| Actual Outcome     | Off-by-one error due to header row misinterpretation                    |
+| Failure Category   | GUI layout reasoning / off-by-one indexing                              |
+| Demonstration File | [`comparison`](./comparison.xlsx) or screenshots below                 |
+
+
 ## Objective
 
 This test case illustrates a common failure in agent-based AI systems that interact with spreadsheet GUIs. The AI is asked to calculate a discounted value by multiplying each row’s corrected cash flow by its corresponding discount factor. The expected output appears in a “Final Answer” column.
