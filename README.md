@@ -26,3 +26,7 @@ This error stems from the AI’s failure to apply implicit human priors about la
 
 ## Takeaway
 While LLMs may succeed at formula generation or simple GUI simulation, they often lack the perceptual scaffolding required to navigate structured interfaces with the implicit logic humans rely on (e.g., "skip the label row"). This presents a critical bottleneck for agentic automation in spreadsheet-driven workflows.
+
+---
+
+📖 [See full breakdown with screenshots →](./Overview.md)
