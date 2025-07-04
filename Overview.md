@@ -16,7 +16,7 @@ The agent should:
 - Preserve alignment between values in each row
 
 The correct formula in cell `E2` should be:
-```excel
+
 =D2*C2
 
 Then it should drag this formula down to the bottom of the dataset, excluding any totals or label rows.
