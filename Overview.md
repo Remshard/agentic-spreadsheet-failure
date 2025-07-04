@@ -1,5 +1,7 @@
 # Agentic Spreadsheet Failure: Off-by-One Error from Header Misinterpretation
 
+← [Back to Summary](./README.md)
+
 ## Objective
 
 This test case illustrates a common failure in agent-based AI systems that interact with spreadsheet GUIs. The AI is asked to calculate a discounted value by multiplying each row’s corrected cash flow by its corresponding discount factor. The expected output appears in a “Final Answer” column.
